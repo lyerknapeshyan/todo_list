@@ -1,0 +1,100 @@
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    background: #1F7368;
+    padding: 1%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.inputPanel{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#newTask{
+    border: none;
+    background: #C6F4E6;
+    width: 87%;
+    padding: 1%;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1F7368;
+}
+
+#newTask:focus{
+    outline: none;
+}
+
+#newTask::placeholder{
+    color: #1F7368;
+}
+
+#add{
+    border: none;   
+    padding: 1%;
+    width: 9%;
+    color: #1F7368;
+}
+
+#add:hover{
+    background: #1F7368;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    color: #1F7368;
+    padding: 0.3%;
+    background: #C6F4E6;
+    margin-bottom: 3px;
+}
+
+.notCompleted{
+    background: #C6F4E6;
+}
+
+li:hover{
+    background: #95C7BB;    
+}
+
+.completed {
+    text-decoration: line-through;
+    font-style: italic;
+    background: #8FD6BA;
+}
+
+.chk{
+    color: #1F7368;
+    border: none;
+    position: absolute;
+    right: 5%;
+}
+
+.chk:hover{
+    background: #07de44;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.del{
+    color: #1F7368;
+    border: none;
+    position: absolute;
+    right: 2%;
+}
+
+.del:hover{
+    background: #db0404;
+    cursor: pointer;
+    color: #FFFFFF;
+}
